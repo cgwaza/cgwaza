@@ -22,7 +22,8 @@ Below are key systems I've architected across digital health and cloud data envi
 
 <details>
 <summary><strong>🧱 EMR → Data Pipeline → Analytics Architecture</strong></summary>
-```mermaid
+    
+```mermaid```
 flowchart TD
     A[Facility EMR (NMRS / OpenMRS)] --> B[Data Extract Layer (API / SQL / CSV Sync)]
     B --> C[Staging DB (PostgreSQL / MySQL)]
