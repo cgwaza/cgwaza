@@ -22,7 +22,7 @@ Below are key systems I've architected across digital health and cloud data envi
 
 ```md
 
-🧱 EMR → Data Pipeline → Analytics Architecture
+<details> <summary><strong>🧱 EMR → Data Pipeline → Analytics Architecture</strong></summary>
 
 ```mermaid
 flowchart TD
