@@ -33,6 +33,5 @@ D --> E[Data Warehouse (Star Schema: Patients, Visits, Labs, Pharmacy)]
 E --> F[Analytics Layer (Power BI + DAX + RLS)]
 F --> G[Executive Dashboards & KPIs (CDC/USAID Reporting)]
 ```
-```
 
 
