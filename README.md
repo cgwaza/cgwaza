@@ -20,16 +20,17 @@ Cloud-Ready Data Pipelines • EMR Modernization • Analytics Automation • CD
 ## 📊 System Architecture Portfolio
 Below are key systems I've architected across digital health and cloud data environments.
 
-<details>
-<summary><strong>🧱 EMR → Data Pipeline → Analytics Architecture</strong></summary>
-    
-```mermaid```
+<details> <summary><strong>🧱 EMR → Data Pipeline → Analytics Architecture</strong></summary>
+
+```mermaid
 flowchart TD
-    A[Facility EMR (NMRS / OpenMRS)] --> B[Data Extract Layer (API / SQL / CSV Sync)]
-    B --> C[Staging DB (PostgreSQL / MySQL)]
-    C --> D[ETL Engine (Python + SQL + DQA Rules)]
-    D --> E[Data Warehouse (Star Schema: Patients, Visits, Labs, Pharmacy)]
-    E --> F[Analytics Layer (Power BI + DAX + RLS)]
-    F --> G[Executive Dashboards & KPIs (CDC/USAID Reporting)]
-</details>```
+A[Facility EMR (NMRS / OpenMRS)] --> B[Data Extract Layer (API / SQL / CSV Sync)]
+B --> C[Staging DB (PostgreSQL / MySQL)]
+C --> D[ETL Engine (Python + SQL + DQA Rules)]
+D --> E[Data Warehouse (Star Schema: Patients, Visits, Labs, Pharmacy)]
+E --> F[Analytics Layer (Power BI + DAX + RLS)]
+F --> G[Executive Dashboards & KPIs (CDC/USAID Reporting)]
+```
+
+</details>
 
