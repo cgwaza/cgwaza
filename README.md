@@ -13,3 +13,23 @@ Cloud-Ready Data Pipelines • EMR Modernization • Analytics Automation • CD
 
 📫 gwaza1314@gmail.com  
 🔗 linkedin.com/in/caleb-gwaza-446247149  
+
+
+---
+
+## 📊 System Architecture Portfolio
+Below are key systems I've architected across digital health and cloud data environments.
+
+
+### 🧱 EMR → Data Pipeline → Analytics Architecture
+
+```mermaid
+flowchart TD
+    A[Facility EMR<br/>(NMRS / OpenMRS)] --> B[Data Extract Layer<br/>(API / SQL / CSV Sync)]
+    B --> C[Staging DB<br/>(PostgreSQL / MySQL)]
+    C --> D[ETL Engine<br/>(Python + SQL + DQA Rules)]
+    D --> E[Data Warehouse<br/>(Star Schema: Patients, Visits, Labs, Pharmacy)]
+    E --> F[Analytics Layer<br/>(Power BI + DAX + RLS)]
+    F --> G[Executive Dashboards & KPIs<br/>(CDC/USAID Reporting)]
+
+
