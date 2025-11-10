@@ -22,7 +22,7 @@ Below are key systems I've architected across digital health and cloud data envi
 
 ```md
 
-```<details> <summary><strong>🧱 EMR → Data Pipeline → Analytics Architecture</strong></summary>
+<details> <summary><strong>🧱 EMR → Data Pipeline → Analytics Architecture</strong></summary>
 
 ```mermaid
 flowchart TD
@@ -32,7 +32,7 @@ C --> D[ETL Engine (Python + SQL + DQA Rules)]
 D --> E[Data Warehouse (Star Schema: Patients, Visits, Labs, Pharmacy)]
 E --> F[Analytics Layer (Power BI + DAX + RLS)]
 F --> G[Executive Dashboards & KPIs (CDC/USAID Reporting)]
-</details> ```
+</details>
 ```
 
 
